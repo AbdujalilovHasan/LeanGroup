@@ -1,0 +1,38 @@
+.comands {
+
+    h1 {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+        color: #2C2D2E;
+    }
+
+    h1 span {
+        color: #EF7C00;
+    }
+
+
+    &__row-list {
+        margin-top: 32px;
+        display: flex;
+        align-items: center;
+        gap: 46px;
+    }
+
+
+    &__btn button {
+        padding: 10px 20px;
+        border: 1px solid #EF7C00;
+        background: none;
+        border-radius: 4px;
+        color: #EF7C00;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: 48px;
+        margin-left: 520px;
+    }
+}

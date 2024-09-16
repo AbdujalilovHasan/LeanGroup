@@ -1,0 +1,85 @@
+.hero {
+    &__bg-img {
+        z-index: -9999;
+        background-image: url('../../assets/images/bg1\ 1.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 90vh;
+    }
+
+    &__row {
+        position: relative;
+        text-align: left;
+        max-width: 1200px;
+        width: 100%;
+       margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__left {
+        padding-top: 262px;
+        width: 582px;
+    }
+
+    &__left h4 {
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        color: #2C2D2E;
+    }
+
+    &__left h1 {
+        margin-top: 16px;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        color: #2C2D2E;
+    }
+
+    &__left p {
+        margin-top: 17px;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #2C2D2E;
+    }
+
+    button {
+        margin-top: 18px;
+        padding: 10px 20px;
+        background: #EF7C00;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        cursor: pointer;
+    } 
+    
+    &__right {
+        position: absolute;
+        left: 1280px;
+        top: 210px;
+    }
+
+    &__icons {
+        color: #EF7C00;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+    
+    &__icons img {
+        width: 22.3px;
+        height: 13.93px;
+        margin-bottom: 34px;
+    }
+}

@@ -1,0 +1,42 @@
+.about {
+    h1 {
+        margin-top: 40px;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+        color: #2C2D2E;
+    }
+
+    h1 span {
+        color: #EF7C00;
+    }
+
+    &__row {
+        margin-top: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__left img {
+        transition: 2s;
+        cursor: pointer;
+    }
+
+    &__left img:hover {
+        transform: scale(0.9);
+        transition: 0.5s;
+    }
+
+    &__right {
+        width: 602px;
+        font-size: 15px;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+    }
+}

@@ -1,0 +1,113 @@
+.nav {
+    box-shadow: 0px 4px 32px 0px #00103D29;
+
+    &__row {
+        font-family: Montserrat;
+        margin: 0 auto;
+        width: 1200px;
+        display: flex;
+        padding: 8px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__links {
+        overflow: hidden;
+        display: flex;
+        font-family: Arial;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+    }
+
+    ul hr {
+        border: 1px solid #00103D1F;
+    }
+
+    ul li a {
+        float: left;
+        font-size: 16px;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: #2C2D2E;
+    }
+
+    ul li a:hover {
+        color: #EF7C00;
+    }
+
+    &__links hr {
+        height: 28px;
+    }
+
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        cursor: pointer;
+    }
+
+    .dropdown .dropbtn:hover {
+        color: #EF7C00;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 9999;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    dropdown-content a:hover {
+        color: #EF7C00;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    &__right hr {
+        height: 28px;
+        border: 1px solid #00103D1F;
+    }
+
+    &__ru {
+        color: #EF7C00;
+        cursor: pointer;
+    }
+
+    &__en p {
+        cursor: pointer;
+        color: #919399;
+    }
+}

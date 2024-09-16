@@ -1,0 +1,41 @@
+.comands {
+    &__card {
+        text-align: center;
+        width: 203px;
+    }
+
+    &__item-title {
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #2C2D2E;
+    }
+
+    &__item-subtitle {
+        margin-top: 4px;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        color: #919399;
+    }
+
+    &__item-number {
+        margin-top: 16px;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        color: #2C2D2E;
+    }
+
+    &__item-gmail {
+        margin-top: 8px;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        color: #2C2D2E;
+    }
+}

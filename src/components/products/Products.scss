@@ -1,0 +1,100 @@
+.product-display {
+    padding: 50px 0;
+
+    h1 {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+        color: #2C2D2E;
+    }
+
+    h1 span {
+        color: #EF7C00;
+    }
+
+    .wrapper {
+        .product-tabs {
+            margin-bottom: 40px;
+
+            .tab-headers {
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+                margin-bottom: 20px;
+
+                .tab-header {
+                    margin-top: 32px;
+                    list-style: none;
+                    border: 1px solid #00103D1F;
+                    background-color: none;
+                    border-radius: 50px;
+                    padding: 10px 20px;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 600;
+                    text-align: center;
+                    color: #EF6200;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+
+                    &:hover {
+                        background-color: #ef6200;
+                        color: #fff;
+                        border: none;
+                    }
+                }
+
+                .tab-header.react-tabs__tab--selected {
+                    background-color: #EF6200;
+                    color: #fff;
+                    border: none;
+
+                }
+            }
+
+            .tab-content {
+                .image-grid {
+                    display: flex;
+                    justify-content: space-around;
+
+                    .image-wrapper {
+                        width: 18%;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                            border-radius: 12px;
+                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                        }
+                    }
+                }
+            }
+        }
+
+        .catalog-btn {
+            display: flex;
+            justify-content: center;
+
+            button {
+                padding: 10px 20px;
+                background: none;
+                border: none;
+                border: 1px solid #00103D1F;
+                color: #EF6200;
+                font-size: 14px;
+                font-weight: bold;
+                border-radius: 30px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+
+                &:hover {
+                    background-color: #EF6200;
+                    color: #fff;
+                    border: none;
+                }
+            }
+        }
+    }
+}

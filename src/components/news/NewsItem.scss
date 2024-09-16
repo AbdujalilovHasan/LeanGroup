@@ -1,0 +1,19 @@
+.news {
+    &__item-date {
+        margin-top: 4px;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        color: #919399;
+    }
+
+    &__item-title {
+        margin-top: 8px;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #2C2D2E;
+    }
+}
